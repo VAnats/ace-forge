@@ -1,13 +1,12 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from 'react';
+import { AceEditorApp } from '@/components/ace-editor/AceEditorApp';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="h-screen overflow-hidden">
+      <h1 className="sr-only">Full-Featured Ace Editor - Professional Code Editor</h1>
+      <AceEditorApp />
+    </main>
   );
 };
 
